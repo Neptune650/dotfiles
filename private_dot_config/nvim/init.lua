@@ -1,3 +1,4 @@
+-- Disable the included and unused file manager
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
@@ -7,9 +8,11 @@ vim.opt.numberwidth = 1
 vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.showmatch = true
-vim.opt.termguicolors = true
 vim.opt.relativenumber = true
 vim.opt.showmode = false
+-- Nvim usually enables this for us, but since we load nvim-colorizer before
+-- that happens, enable it manually
+vim.opt.termguicolors = true
 
 -- Ignore case unless the first letter is uppercase
 vim.opt.ignorecase = true
