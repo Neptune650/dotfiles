@@ -51,7 +51,9 @@ vim.pack.add({
     -- UI library dependency for hardtime
     "https://github.com/MunifTanjim/nui.nvim",
     -- Highlight arguments in functions (requires tree-sitter)
-    "https://github.com/m-demare/hlargs.nvim"
+    "https://github.com/m-demare/hlargs.nvim",
+    -- Auto close HTML tags
+    "https://github.com/windwp/nvim-ts-autotag"
 })
 
 -- Initial setup for basic plugins
