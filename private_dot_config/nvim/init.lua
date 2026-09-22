@@ -61,6 +61,7 @@ vim.pack.add({
 
 -- Initial setup for basic plugins
 require("lualine").setup()
+require("nvim-ts-autotag").setup()
 require("nvim-autopairs").setup()
 require("automkdir").setup()
 require("colorizer").setup()
